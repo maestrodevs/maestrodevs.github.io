@@ -1,5 +1,8 @@
 <p align="center">
-  <img src="logo-lockup.svg" alt="Maestro" width="380">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="logo-lockup-light.svg">
+    <img src="logo-lockup.svg" alt="Maestro" width="380">
+  </picture>
 </p>
 
 <h1 align="center">Maestro — distribution</h1>
