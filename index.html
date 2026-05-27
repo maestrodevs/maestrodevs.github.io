@@ -36,12 +36,23 @@
   .links a { font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 0.9rem; }
   hr { border: 0; border-top: 1px solid #1d3543; margin: 3rem 0 1.5rem; }
   footer { color: var(--muted); font-size: 0.85rem; }
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+  }
 </style>
 </head>
 <body>
 <div class="wrap">
 
   <img class="logo" src="logo-lockup-light.svg" alt="Maestro">
+  <h1 class="sr-only">Maestro — Mission control for automation</h1>
 
   <p class="tagline">AI-orchestrated multi-agent coding for <strong>Claude Code</strong>.</p>
   <p class="sub">A dispatcher and a fleet of autonomous crews that plan, build, test, and ship — you stay the lead.</p>
