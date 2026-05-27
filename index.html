@@ -2,28 +2,65 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>maestro-dist — Distribution channel for the Maestro CLI</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Maestro — Mission control for automation</title>
+<meta name="description" content="Maestro — AI-orchestrated multi-agent coding for Claude Code. pip install maestro.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
 <style>
-  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
-         max-width: 720px; margin: 2rem auto; padding: 0 1.5rem; line-height: 1.55; color: #0A1A3A; }
-  pre  { background: #f4f7fb; border-radius: 6px; padding: 0.9rem 1rem; overflow-x: auto;
-         font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 0.9rem; }
-  a    { color: #00BCD4; text-decoration: none; }
+  :root {
+    --ink:   #0A1722;   /* abyss */
+    --paper: #EDE6D3;   /* paper */
+    --ember: #E0573A;   /* ember */
+    --teal:  #2B6B7A;   /* teal  */
+    --muted: #9fb0b8;
+  }
+  * { box-sizing: border-box; }
+  body { font-family: 'Inter Tight', Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+         margin: 0; background: var(--ink); color: var(--paper); line-height: 1.6;
+         -webkit-font-smoothing: antialiased; }
+  .wrap { max-width: 680px; margin: 0 auto; padding: 4rem 1.5rem 3rem; }
+  .logo { width: 320px; max-width: 100%; display: block; margin: 0 0 1.5rem; }
+  .tagline { font-size: 1.15rem; color: var(--paper); opacity: 0.92; margin: 0 0 0.25rem; }
+  .sub { color: var(--muted); margin: 0 0 2.5rem; font-size: 0.98rem; }
+  h2 { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.18em;
+       color: var(--teal); margin: 2.5rem 0 0.75rem; font-family: 'JetBrains Mono', ui-monospace, monospace; }
+  pre  { background: #0f2230; border: 1px solid #1d3543; border-radius: 8px;
+         padding: 1rem 1.15rem; overflow-x: auto; margin: 0;
+         font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+         font-size: 0.9rem; color: var(--paper); }
+  code { color: var(--paper); }
+  .accent { color: var(--ember); }
+  a { color: var(--ember); text-decoration: none; }
   a:hover { text-decoration: underline; }
-  hr   { border: 0; border-top: 1px solid #d8dde9; margin: 2rem 0; }
+  .links { display: flex; flex-wrap: wrap; gap: 1.25rem; margin-top: 0.5rem; }
+  .links a { font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 0.9rem; }
+  hr { border: 0; border-top: 1px solid #1d3543; margin: 3rem 0 1.5rem; }
+  footer { color: var(--muted); font-size: 0.85rem; }
 </style>
 </head>
 <body>
-<h1>maestro-dist</h1>
-<p>Distribution channel for <strong>Maestro</strong> — AI-orchestrated multi-agent coding for Claude Code.</p>
+<div class="wrap">
 
-<h2>Install</h2>
-<pre><code>pip install --upgrade maestro --extra-index-url https://maestrodevs.github.io/simple/</code></pre>
+  <img class="logo" src="logo-lockup-light.svg" alt="Maestro">
 
-<h2>Source</h2>
-<p>Maestro is the rebrand of the <a href="https://github.com/tavisbasing/Admiralty">Admiralty framework</a>. Wheels for both <code>maestro</code> (primary) and <code>admiralty</code> (backwards-compat shim) ship from the same source repo's release workflow.</p>
+  <p class="tagline">AI-orchestrated multi-agent coding for <strong>Claude Code</strong>.</p>
+  <p class="sub">A dispatcher and a fleet of autonomous crews that plan, build, test, and ship — you stay the lead.</p>
 
-<hr>
-<p><a href="simple/">PEP 503 simple index</a></p>
+  <h2>Install</h2>
+  <pre><code>pip install --upgrade maestro --extra-index-url https://maestrodevs.github.io/simple/</code></pre>
+
+  <h2>Verify</h2>
+  <pre><code>mso version</code></pre>
+
+  <h2>Explore</h2>
+  <div class="links">
+    <a href="https://github.com/tavisbasing/Maestro">Source&nbsp;→</a>
+    <a href="simple/">Package&nbsp;index&nbsp;→</a>
+  </div>
+
+  <hr>
+  <footer>Maestro · Mission control for automation · Built for Claude Code.</footer>
+
+</div>
 </body>
 </html>
