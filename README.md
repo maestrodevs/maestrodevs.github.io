@@ -34,7 +34,8 @@ mso version          # → Maestro vX.Y.Z
 
 | | |
 |---|---|
-| **Source code** | https://github.com/tavisbasing/Maestro |
+| **Maestro** | https://maestrodevs.com/ |
+| **Maestro Doco** | https://docs.maestrodevs.com/ |
 | **Package index** | https://maestrodevs.github.io/simple/ |
 | **Landing page** | https://maestrodevs.github.io/ |
 
