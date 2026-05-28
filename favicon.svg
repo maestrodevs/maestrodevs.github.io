@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Maestro">
+  <title>Maestro</title>
+  <rect width="200" height="200" rx="22" fill="#0A1722"></rect>
+  <polyline points="68,82 100,60 132,82" fill="none" stroke="#E0573A" stroke-width="18" stroke-linejoin="miter" stroke-linecap="square"></polyline>
+  <polyline points="68,116 100,138 132,116" fill="none" stroke="#2B6B7A" stroke-width="18" stroke-linejoin="miter" stroke-linecap="square"></polyline>
+</svg>
