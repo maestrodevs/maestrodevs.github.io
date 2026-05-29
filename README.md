@@ -21,7 +21,13 @@ This repository is the public **distribution channel** for the Maestro framework
 ## Install
 
 ```bash
-pip install --upgrade maestro --extra-index-url https://maestrodevs.github.io/simple/
+pip install maestro-fleet
+```
+
+(The public PyPI distribution name is `maestro-fleet`; the Python import is `maestro`.) For advanced / airgapped installs, the private wheel index here at `https://maestrodevs.github.io/simple/` ships the same wheels under the original `maestro` name:
+
+```bash
+pip install maestro --extra-index-url https://maestrodevs.github.io/simple/
 ```
 
 Then verify:
