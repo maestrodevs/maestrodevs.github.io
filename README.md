@@ -24,11 +24,7 @@ This repository is the public **distribution channel** for the Maestro framework
 pip install maestro-fleet
 ```
 
-(The public PyPI distribution name is `maestro-fleet`; the Python import is `maestro`.) For advanced / airgapped installs, the private wheel index here at `https://maestrodevs.github.io/simple/` ships the same wheels under the original `maestro` name:
-
-```bash
-pip install maestro --extra-index-url https://maestrodevs.github.io/simple/
-```
+The public PyPI distribution name is `maestro-fleet`; the Python import is `maestro`. Airgapped / restricted-egress operators: see [`docs/AIR-GAPPED.md`](https://github.com/tavisbasing/Maestro/blob/main/docs/AIR-GAPPED.md) on the source repo for the private-index install pattern (the wheel index hosted here continues to serve the same wheels under the original `maestro` distribution name).
 
 Then verify:
 
